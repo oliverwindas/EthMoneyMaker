@@ -1,6 +1,6 @@
 # EthMoneyMaker
 
-Requirements
+Requirements:
 
 pip install coincurve
 
