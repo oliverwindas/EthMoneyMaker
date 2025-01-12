@@ -9,3 +9,6 @@ pip install pysha3
 pip install web3
 
 https://nimbus.guide/binaries.html#__tabbed_1_2
+
+https://www.blackbox.ai/chat/ntQLpu0
+
