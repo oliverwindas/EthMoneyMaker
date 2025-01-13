@@ -4,11 +4,14 @@ Requirements:
 
 pip install coincurve
 
-pip install pysha3
+pip install safe_pysha3
 
 pip install web3
 
-https://nimbus.guide/binaries.html#__tabbed_1_2
+pip install tqdm
 
-https://www.blackbox.ai/chat/ntQLpu0
-
+git clone github.com/oliverwindas/EthMoneyMaker
+cd EthMoneyMaker
+source /path/to/file/EthMoneyMaker/bin/activate
+./openethereum --chain mainnet --jsonrpc-interface all --jsonrpc-port 8545 --ws-interface all --ws-port 8546 --pruning fast
+python EthMoneyProject.py
